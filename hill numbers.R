@@ -10,4 +10,3 @@ t1<-consensus.edges(phy.tree)
 hill_phylo(comm, t1, q = 0)
 hill_phylo_parti(comm, t1, q = 0)
 
-write.csv(comm, "comm.csv", row.names = FALSE)
